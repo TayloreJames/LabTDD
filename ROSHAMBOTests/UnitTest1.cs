@@ -10,12 +10,13 @@ namespace ROSHAMBOTests
         public void RockBeatsScissorsTests()
         {
             //Arrange
-            var input = 3;
+            var input1 = "Rock";
+            var input2 = "Scissors";
             var expectedResult = "Rock beats Scissors";
-            ROSHAMBO.Roshambo roshambo = new Roshambo();
+            Roshambo roshambo = new Roshambo();
 
             //Act
-            //string result = fizzBuzz.Generate(input);
+            string result = roshambo.Play(input1,input2);
 
             //Assert
             //Assert.Equal(expectedResult, result);
