@@ -21,5 +21,21 @@ namespace ROSHAMBOTests
             //Assert
             Assert.Equal(expectedResult, result);
         }
+
+        [Fact]
+        public void ScissorsBeatsPaper()
+        {
+            //Arrange
+            var input1 = "Scissors";
+            var input2 = "Paper";
+            var expectedResult = "Scissors beats Paper";
+            Roshambo roshambo = new Roshambo();
+
+            //Act
+            string result = roshambo.Play(input1, input2);
+
+            //Assert
+            Assert.Equal(expectedResult, result);
+        }
     }
 }
