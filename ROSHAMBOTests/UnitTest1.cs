@@ -19,7 +19,7 @@ namespace ROSHAMBOTests
             string result = roshambo.Play(input1,input2);
 
             //Assert
-            //Assert.Equal(expectedResult, result);
+            Assert.Equal(expectedResult, result);
         }
     }
 }
