@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabTDD", "LabTDD\LabTDD.csproj", "{F61747BA-2E04-4122-A050-DCCB192D0318}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ROSHAMBO", "ROSHAMBO\ROSHAMBO.csproj", "{9D569CF8-B4CD-4D0B-ADE5-328560765E91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ROSHAMBOTests", "ROSHAMBOTests\ROSHAMBOTests.csproj", "{74ED3CA8-6B32-4FC7-9E65-B463E5598A3E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +17,13 @@ Global
 		{F61747BA-2E04-4122-A050-DCCB192D0318}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F61747BA-2E04-4122-A050-DCCB192D0318}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F61747BA-2E04-4122-A050-DCCB192D0318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D569CF8-B4CD-4D0B-ADE5-328560765E91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D569CF8-B4CD-4D0B-ADE5-328560765E91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D569CF8-B4CD-4D0B-ADE5-328560765E91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D569CF8-B4CD-4D0B-ADE5-328560765E91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74ED3CA8-6B32-4FC7-9E65-B463E5598A3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74ED3CA8-6B32-4FC7-9E65-B463E5598A3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74ED3CA8-6B32-4FC7-9E65-B463E5598A3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74ED3CA8-6B32-4FC7-9E65-B463E5598A3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

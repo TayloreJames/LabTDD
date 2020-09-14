@@ -2,7 +2,8 @@
 
 namespace ROSHAMBO
 {
-    public class Class1
+    public class Roshambo
     {
+        
     }
 }
